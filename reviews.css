@@ -2,6 +2,18 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .container {
+  background-color: black;
+  color: white;
 }
 
 *:focus {
@@ -56,24 +68,47 @@ body {
 .btns {
   display: flex;
   justify-content: center;
+  border-radius: 50%;
+  padding: 1rem;
+  border: none;
 }
 
-.btns button {
+/* .btns button {
   border: none;
   border-radius: 50%;
   padding: 1rem;
   background-color: #818cf8;
   color: aliceblue;
-}
+} */
 
 .previous-btn {
   margin: 1rem 1rem;
   text-decoration: underline;
+  background-color: #818cf8;
+  color: aliceblue;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .next-btn {
   margin: 1rem 1rem;
   text-decoration: underline;
+  background-color: #818cf8;
+  color: aliceblue;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .develop {

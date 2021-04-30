@@ -76,3 +76,8 @@ previous.addEventListener("click", function () {
   }
   show(currentitem);
 });
+
+function darkmode() {
+  var dark = document.body;
+  dark.classList.toggle("dark-mode");
+}
