@@ -16,6 +16,24 @@ body {
   color: white;
 }
 
+.dark-mode-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+.dark-mode .dark-mode-btn {
+  background-color: white;
+  color: black;
+}
+
 *:focus {
   outline: none;
 }
